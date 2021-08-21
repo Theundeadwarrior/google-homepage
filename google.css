@@ -10,12 +10,16 @@
 
     float:left;
 }
+.button:hover{
+    text-decoration: underline;
+}
 
 .button {
     padding:9px 23px;
     margin-right: 8px;
     border: 1px solid transparent;
     border-radius:4px;
+    cursor:pointer;
 }
 
 .blue {
@@ -35,6 +39,11 @@
     width: auto;
     flex:100%;
     margin: 1px 10px 1px 10px;
+}
+.search-buttons-container {
+    align-items:center;
+    margin:20px auto;
+    justify-content: center;
 }
 
 .search-icon {
@@ -65,9 +74,16 @@
     align-items:center;
 }
 
+.bottom-row {
+    background-color: #F0F0F0;
+    height:46px;
+    margin-top: auto;
+}
+
 .top-item:first-of-type {
     margin-left: 15px;
 }
+
 
 .top-row {
     height:60px;
